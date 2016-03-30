@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DEDC1BC7624422170972F635B5A024 /* RamblerAppDelegateProxyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 854397D95EA390FA4A39400FD9E79C6A /* RamblerAppDelegateProxyProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2882FB8A5187BD6E4442A81051285EE1 /* RamblerAppDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28034E65F8A4A4A0EC031A5C7BF06512 /* RamblerAppDelegateProxy.m */; };
+		37036C7F76F6792C127C2CDE5819619E /* RamblerDefaultAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A15D688A5AB57BA609F56117FA3B6C /* RamblerDefaultAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4995187A5393C98E506A7362ABF723B1 /* Pods-RamblerAppDelegateProxyExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0386B6C5BDE8F4BF5F5B5B527BC6EF2 /* Pods-RamblerAppDelegateProxyExampleTests-dummy.m */; };
+		51C5A633204491D8C948FB60E19A8B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6415E8D28D8F02BB389EEDA63424EEFB /* RamblerAppDelegateProxyInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6054BEF792942799485F62ED44101726 /* RamblerAppDelegateProxyInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6590A15678E55BA578EA296AAECB7D49 /* Pods-RamblerAppDelegateProxyExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D893D5A311E17684B5471401522AE6B5 /* Pods-RamblerAppDelegateProxyExample-dummy.m */; };
+		6A89A4C5CC17C0E5B45BA1940845951D /* RamblerDefaultAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D706EC5037F4BFEA8FBDA92263BBB61D /* RamblerDefaultAppDelegate.m */; };
+		7EB07DB6CE0BDAB089FACDEE91984882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BAB14541006AF1C8318802E999EFE074 /* RamblerAppDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C11101CE6DB04CEF8A97F7770730094 /* RamblerAppDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD39FD07EED6D1C5F8A80709423EF2D5 /* RamblerAppDelegateProxyInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B26834BB8CC54AAF0EAFF74344197E /* RamblerAppDelegateProxyInjector.m */; };
+		DF87B43E970FD3B3771F8F85C0C2D082 /* RamblerAppDelegateProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83C961C0E011E2AA0216EC2F43A098 /* RamblerAppDelegateProxy-dummy.m */; };
+		E996885D8481BF03FB78FDF1D319D28D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064F5515B3E23A7E2AE2394DDB0B589D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166D991CECFBDDB67D897AB50B1BCC91;
+			remoteInfo = RamblerAppDelegateProxy;
+		};
+		7847EEF890201AC6A648FDEAF0AA7651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166D991CECFBDDB67D897AB50B1BCC91;
+			remoteInfo = RamblerAppDelegateProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10156A351F0A9246F199D91EF5EC9694 /* Pods-RamblerAppDelegateProxyExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerAppDelegateProxyExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1152EEC89F9D497DE823F9A6AF6DFCE0 /* RamblerAppDelegateProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RamblerAppDelegateProxy.xcconfig; sourceTree = "<group>"; };
+		12B26834BB8CC54AAF0EAFF74344197E /* RamblerAppDelegateProxyInjector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerAppDelegateProxyInjector.m; sourceTree = "<group>"; };
+		28034E65F8A4A4A0EC031A5C7BF06512 /* RamblerAppDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerAppDelegateProxy.m; sourceTree = "<group>"; };
+		3246A9F830CA12AA73C85681CDD0C837 /* Pods-RamblerAppDelegateProxyExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RamblerAppDelegateProxyExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3670CA4C480AF9BC24481135B72337B6 /* Pods-RamblerAppDelegateProxyExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerAppDelegateProxyExample-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51A15D688A5AB57BA609F56117FA3B6C /* RamblerDefaultAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerDefaultAppDelegate.h; sourceTree = "<group>"; };
+		579E6A65F68F0333154DC758C3166E8C /* Pods-RamblerAppDelegateProxyExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerAppDelegateProxyExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6054BEF792942799485F62ED44101726 /* RamblerAppDelegateProxyInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerAppDelegateProxyInjector.h; sourceTree = "<group>"; };
+		6C11101CE6DB04CEF8A97F7770730094 /* RamblerAppDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerAppDelegateProxy.h; sourceTree = "<group>"; };
+		720A15FB8B1013CD048EEEA7A6EA08E0 /* Pods-RamblerAppDelegateProxyExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RamblerAppDelegateProxyExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		854397D95EA390FA4A39400FD9E79C6A /* RamblerAppDelegateProxyProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RamblerAppDelegateProxyProtocol.h; sourceTree = "<group>"; };
+		8C31F0EBF57E1F3E6C1D2768164CEF20 /* libPods-RamblerAppDelegateProxyExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerAppDelegateProxyExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFA2541938DB590C7725177F535B314 /* Pods-RamblerAppDelegateProxyExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerAppDelegateProxyExampleTests-resources.sh"; sourceTree = "<group>"; };
+		8FDB3B05AFE8C8DC56E8FB8047E9A1C9 /* Pods-RamblerAppDelegateProxyExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerAppDelegateProxyExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		A393B2AE19BCFB2B255304FE4EAB943E /* Pods-RamblerAppDelegateProxyExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RamblerAppDelegateProxyExample-resources.sh"; sourceTree = "<group>"; };
+		A4EB25AC4D54D97D5A4421FB1C64809C /* Pods-RamblerAppDelegateProxyExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RamblerAppDelegateProxyExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A53D220FC9F239DBD2BEA435B4DE6827 /* Pods-RamblerAppDelegateProxyExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerAppDelegateProxyExample.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D706EC5037F4BFEA8FBDA92263BBB61D /* RamblerDefaultAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RamblerDefaultAppDelegate.m; sourceTree = "<group>"; };
+		D893D5A311E17684B5471401522AE6B5 /* Pods-RamblerAppDelegateProxyExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RamblerAppDelegateProxyExample-dummy.m"; sourceTree = "<group>"; };
+		DB021C02E271498077E1ADD4D74954CF /* Pods-RamblerAppDelegateProxyExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RamblerAppDelegateProxyExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E337A488DF5309D967F633EFB40FCC57 /* Pods-RamblerAppDelegateProxyExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RamblerAppDelegateProxyExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E47238AB8C7DB7FD9465215370A65AC5 /* libPods-RamblerAppDelegateProxyExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamblerAppDelegateProxyExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BD96ABF498F97ED53FB23D4C32D01A /* libRamblerAppDelegateProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRamblerAppDelegateProxy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA83C961C0E011E2AA0216EC2F43A098 /* RamblerAppDelegateProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RamblerAppDelegateProxy-dummy.m"; sourceTree = "<group>"; };
+		EF29D9AB1AE2DD569CC687720A57DE5C /* RamblerAppDelegateProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RamblerAppDelegateProxy-prefix.pch"; sourceTree = "<group>"; };
+		F0386B6C5BDE8F4BF5F5B5B527BC6EF2 /* Pods-RamblerAppDelegateProxyExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RamblerAppDelegateProxyExampleTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D4A3500B85A1051723224B52F5D1BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E996885D8481BF03FB78FDF1D319D28D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3874BD2EBA5F7E6772F000FE99371C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C5A633204491D8C948FB60E19A8B37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA55168EDDA3AD62367B9DB90CF1DEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB07DB6CE0BDAB089FACDEE91984882 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0629E844D8D0AB8D06AB6D048BD2CAC4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F33DE538CF2B8AC254A0D4299AA4457D /* Pods-RamblerAppDelegateProxyExample */,
+				A95E5C4801E827EA4CD0BC0B96E0BC29 /* Pods-RamblerAppDelegateProxyExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2285DC8A271C6327965B3BACBD6286B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1152EEC89F9D497DE823F9A6AF6DFCE0 /* RamblerAppDelegateProxy.xcconfig */,
+				EA83C961C0E011E2AA0216EC2F43A098 /* RamblerAppDelegateProxy-dummy.m */,
+				EF29D9AB1AE2DD569CC687720A57DE5C /* RamblerAppDelegateProxy-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Project/Pods/Target Support Files/RamblerAppDelegateProxy";
+			sourceTree = "<group>";
+		};
+		6811831ABBFBF98A8101B1289AFCAE8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C31F0EBF57E1F3E6C1D2768164CEF20 /* libPods-RamblerAppDelegateProxyExample.a */,
+				E47238AB8C7DB7FD9465215370A65AC5 /* libPods-RamblerAppDelegateProxyExampleTests.a */,
+				E4BD96ABF498F97ED53FB23D4C32D01A /* libRamblerAppDelegateProxy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				FDD578EE024A6AFE24658DCBB4C6F507 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6811831ABBFBF98A8101B1289AFCAE8A /* Products */,
+				0629E844D8D0AB8D06AB6D048BD2CAC4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A95E5C4801E827EA4CD0BC0B96E0BC29 /* Pods-RamblerAppDelegateProxyExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E337A488DF5309D967F633EFB40FCC57 /* Pods-RamblerAppDelegateProxyExampleTests-acknowledgements.markdown */,
+				A4EB25AC4D54D97D5A4421FB1C64809C /* Pods-RamblerAppDelegateProxyExampleTests-acknowledgements.plist */,
+				F0386B6C5BDE8F4BF5F5B5B527BC6EF2 /* Pods-RamblerAppDelegateProxyExampleTests-dummy.m */,
+				8FDB3B05AFE8C8DC56E8FB8047E9A1C9 /* Pods-RamblerAppDelegateProxyExampleTests-frameworks.sh */,
+				8DFA2541938DB590C7725177F535B314 /* Pods-RamblerAppDelegateProxyExampleTests-resources.sh */,
+				DB021C02E271498077E1ADD4D74954CF /* Pods-RamblerAppDelegateProxyExampleTests.debug.xcconfig */,
+				10156A351F0A9246F199D91EF5EC9694 /* Pods-RamblerAppDelegateProxyExampleTests.release.xcconfig */,
+			);
+			name = "Pods-RamblerAppDelegateProxyExampleTests";
+			path = "Target Support Files/Pods-RamblerAppDelegateProxyExampleTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D1487B809979730A15786803EE6D1F6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C11101CE6DB04CEF8A97F7770730094 /* RamblerAppDelegateProxy.h */,
+				28034E65F8A4A4A0EC031A5C7BF06512 /* RamblerAppDelegateProxy.m */,
+				6054BEF792942799485F62ED44101726 /* RamblerAppDelegateProxyInjector.h */,
+				12B26834BB8CC54AAF0EAFF74344197E /* RamblerAppDelegateProxyInjector.m */,
+				854397D95EA390FA4A39400FD9E79C6A /* RamblerAppDelegateProxyProtocol.h */,
+				51A15D688A5AB57BA609F56117FA3B6C /* RamblerDefaultAppDelegate.h */,
+				D706EC5037F4BFEA8FBDA92263BBB61D /* RamblerDefaultAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F33DE538CF2B8AC254A0D4299AA4457D /* Pods-RamblerAppDelegateProxyExample */ = {
+			isa = PBXGroup;
+			children = (
+				3246A9F830CA12AA73C85681CDD0C837 /* Pods-RamblerAppDelegateProxyExample-acknowledgements.markdown */,
+				720A15FB8B1013CD048EEEA7A6EA08E0 /* Pods-RamblerAppDelegateProxyExample-acknowledgements.plist */,
+				D893D5A311E17684B5471401522AE6B5 /* Pods-RamblerAppDelegateProxyExample-dummy.m */,
+				3670CA4C480AF9BC24481135B72337B6 /* Pods-RamblerAppDelegateProxyExample-frameworks.sh */,
+				A393B2AE19BCFB2B255304FE4EAB943E /* Pods-RamblerAppDelegateProxyExample-resources.sh */,
+				579E6A65F68F0333154DC758C3166E8C /* Pods-RamblerAppDelegateProxyExample.debug.xcconfig */,
+				A53D220FC9F239DBD2BEA435B4DE6827 /* Pods-RamblerAppDelegateProxyExample.release.xcconfig */,
+			);
+			name = "Pods-RamblerAppDelegateProxyExample";
+			path = "Target Support Files/Pods-RamblerAppDelegateProxyExample";
+			sourceTree = "<group>";
+		};
+		F4D28A06BF9A680B10E9EEDE694F52DA /* RamblerAppDelegateProxy */ = {
+			isa = PBXGroup;
+			children = (
+				D1487B809979730A15786803EE6D1F6C /* Classes */,
+				2285DC8A271C6327965B3BACBD6286B2 /* Support Files */,
+			);
+			name = RamblerAppDelegateProxy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDD578EE024A6AFE24658DCBB4C6F507 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D28A06BF9A680B10E9EEDE694F52DA /* RamblerAppDelegateProxy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B0D948604893A25D3046B3C992BEBBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB14541006AF1C8318802E999EFE074 /* RamblerAppDelegateProxy.h in Headers */,
+				6415E8D28D8F02BB389EEDA63424EEFB /* RamblerAppDelegateProxyInjector.h in Headers */,
+				07DEDC1BC7624422170972F635B5A024 /* RamblerAppDelegateProxyProtocol.h in Headers */,
+				37036C7F76F6792C127C2CDE5819619E /* RamblerDefaultAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		166D991CECFBDDB67D897AB50B1BCC91 /* RamblerAppDelegateProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D368686F715AB8D556B433C8032202 /* Build configuration list for PBXNativeTarget "RamblerAppDelegateProxy" */;
+			buildPhases = (
+				A2C67D05972C1240E1079F759B4EB831 /* Sources */,
+				DC3874BD2EBA5F7E6772F000FE99371C /* Frameworks */,
+				7B0D948604893A25D3046B3C992BEBBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamblerAppDelegateProxy;
+			productName = RamblerAppDelegateProxy;
+			productReference = E4BD96ABF498F97ED53FB23D4C32D01A /* libRamblerAppDelegateProxy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		584AD86133B978EC4F5C9C6AD3A9CBD4 /* Pods-RamblerAppDelegateProxyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE81A981115323815EDA0ACD69E7F65 /* Build configuration list for PBXNativeTarget "Pods-RamblerAppDelegateProxyExample" */;
+			buildPhases = (
+				1C21A7A7DE0900973398C05108A910B6 /* Sources */,
+				0D4A3500B85A1051723224B52F5D1BE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A33E1F441417B42750E5E9178E75CA /* PBXTargetDependency */,
+			);
+			name = "Pods-RamblerAppDelegateProxyExample";
+			productName = "Pods-RamblerAppDelegateProxyExample";
+			productReference = 8C31F0EBF57E1F3E6C1D2768164CEF20 /* libPods-RamblerAppDelegateProxyExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7C6F34C1B9C3F4912A325F5F43F90664 /* Pods-RamblerAppDelegateProxyExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF8B45E74C82C0456EDEF65515FD0B2 /* Build configuration list for PBXNativeTarget "Pods-RamblerAppDelegateProxyExampleTests" */;
+			buildPhases = (
+				3F2E868A543ACEFFC6B0A31EE11B3CE1 /* Sources */,
+				EA55168EDDA3AD62367B9DB90CF1DEEC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281922951A12442CFD9BB763E1D2A32B /* PBXTargetDependency */,
+			);
+			name = "Pods-RamblerAppDelegateProxyExampleTests";
+			productName = "Pods-RamblerAppDelegateProxyExampleTests";
+			productReference = E47238AB8C7DB7FD9465215370A65AC5 /* libPods-RamblerAppDelegateProxyExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6811831ABBFBF98A8101B1289AFCAE8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584AD86133B978EC4F5C9C6AD3A9CBD4 /* Pods-RamblerAppDelegateProxyExample */,
+				7C6F34C1B9C3F4912A325F5F43F90664 /* Pods-RamblerAppDelegateProxyExampleTests */,
+				166D991CECFBDDB67D897AB50B1BCC91 /* RamblerAppDelegateProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C21A7A7DE0900973398C05108A910B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6590A15678E55BA578EA296AAECB7D49 /* Pods-RamblerAppDelegateProxyExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2E868A543ACEFFC6B0A31EE11B3CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4995187A5393C98E506A7362ABF723B1 /* Pods-RamblerAppDelegateProxyExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C67D05972C1240E1079F759B4EB831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF87B43E970FD3B3771F8F85C0C2D082 /* RamblerAppDelegateProxy-dummy.m in Sources */,
+				2882FB8A5187BD6E4442A81051285EE1 /* RamblerAppDelegateProxy.m in Sources */,
+				CD39FD07EED6D1C5F8A80709423EF2D5 /* RamblerAppDelegateProxyInjector.m in Sources */,
+				6A89A4C5CC17C0E5B45BA1940845951D /* RamblerDefaultAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281922951A12442CFD9BB763E1D2A32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RamblerAppDelegateProxy;
+			target = 166D991CECFBDDB67D897AB50B1BCC91 /* RamblerAppDelegateProxy */;
+			targetProxy = 064F5515B3E23A7E2AE2394DDB0B589D /* PBXContainerItemProxy */;
+		};
+		65A33E1F441417B42750E5E9178E75CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RamblerAppDelegateProxy;
+			target = 166D991CECFBDDB67D897AB50B1BCC91 /* RamblerAppDelegateProxy */;
+			targetProxy = 7847EEF890201AC6A648FDEAF0AA7651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20EA6722C28D4F800FD02C905F449369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10156A351F0A9246F199D91EF5EC9694 /* Pods-RamblerAppDelegateProxyExampleTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4BFFDCEF2791D46A03630075709B3453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1152EEC89F9D497DE823F9A6AF6DFCE0 /* RamblerAppDelegateProxy.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RamblerAppDelegateProxy/RamblerAppDelegateProxy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A2E77776F8E9EDD54A2D67361656980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB021C02E271498077E1ADD4D74954CF /* Pods-RamblerAppDelegateProxyExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E77A9C858E5719B049419D94597B608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1152EEC89F9D497DE823F9A6AF6DFCE0 /* RamblerAppDelegateProxy.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RamblerAppDelegateProxy/RamblerAppDelegateProxy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAF8E0D9D6F6A62EB852202B63C4A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53D220FC9F239DBD2BEA435B4DE6827 /* Pods-RamblerAppDelegateProxyExample.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF0B8B062E5EB94AF942986EF06291E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579E6A65F68F0333154DC758C3166E8C /* Pods-RamblerAppDelegateProxyExample.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF8B45E74C82C0456EDEF65515FD0B2 /* Build configuration list for PBXNativeTarget "Pods-RamblerAppDelegateProxyExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2E77776F8E9EDD54A2D67361656980 /* Debug */,
+				20EA6722C28D4F800FD02C905F449369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D368686F715AB8D556B433C8032202 /* Build configuration list for PBXNativeTarget "RamblerAppDelegateProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFFDCEF2791D46A03630075709B3453 /* Debug */,
+				6E77A9C858E5719B049419D94597B608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE81A981115323815EDA0ACD69E7F65 /* Build configuration list for PBXNativeTarget "Pods-RamblerAppDelegateProxyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0B8B062E5EB94AF942986EF06291E0 /* Debug */,
+				EAAF8E0D9D6F6A62EB852202B63C4A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

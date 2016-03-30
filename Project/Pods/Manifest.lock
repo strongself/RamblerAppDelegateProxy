@@ -1,0 +1,14 @@
+PODS:
+  - RamblerAppDelegateProxy (0.0.1)
+
+DEPENDENCIES:
+  - RamblerAppDelegateProxy (from `../`)
+
+EXTERNAL SOURCES:
+  RamblerAppDelegateProxy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RamblerAppDelegateProxy: 8926ec7e066d4f4aabf965a32126c747d32498a7
+
+COCOAPODS: 0.39.0
