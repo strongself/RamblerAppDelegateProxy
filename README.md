@@ -25,7 +25,7 @@ Just imagine, that instead of 2k lines of code monster you have multiple simple 
 `pod RamblerAppDelegateProxy`
 
 ### Usage
-1. Create a `RemoteNotificationAppDelegate` class which conforms to `UIApplicationDelegate` protocol.
+Create a `RemoteNotificationAppDelegate` class which conforms to `UIApplicationDelegate` protocol.
 
 ```objc
 @interface RemoteNotificationAppDelegate : NSObject <UIApplicationDelegate>
@@ -53,7 +53,7 @@ Just imagine, that instead of 2k lines of code monster you have multiple simple 
 @end
 ```
 
-2. Change the `main.m` file implementation:
+Change the `main.m` file implementation:
 
 ```objc
 int main(int argc, char * argv[]) {
@@ -65,7 +65,7 @@ int main(int argc, char * argv[]) {
 }
 ```
 
-3. Use your `RemoteNotificationAppDelegate` in the same way as the standart `AppDelegate` class - just remember to not mess its responsibilities.
+Use your `RemoteNotificationAppDelegate` in the same way as the standart `AppDelegate` class - just remember to not mess its responsibilities.
 
 ### Authors
 
