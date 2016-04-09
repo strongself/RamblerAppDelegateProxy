@@ -3,8 +3,8 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
-target ‘RamblerAppDelegateProxyExample' do
-  pod “RamblerAppDelegateProxy", :path => "../"
+target 'RamblerAppDelegateProxyExample' do
+  pod "RamblerAppDelegateProxy", :path => "../"
 end
 
 target 'RamblerAppDelegateProxyExampleTests' do
