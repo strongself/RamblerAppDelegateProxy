@@ -69,7 +69,7 @@ Use your `RemoteNotificationAppDelegate` in the same way as the standart `AppDel
 
 ### Troubleshooting
 
-Based on the concept, the proxy forwards only the methods defined in the protocol UIApplicationDelegate. If you need something a complementary method that must be implemented in AppDelegate, you need to create a subclass.
+Based on the concept, the proxy forwards only the methods defined in the protocol UIApplicationDelegate. If you need a additional method that must be implemented in AppDelegate, you need to create a subclass and implement this method in this class.
 ```objc
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -77,11 +77,11 @@ Based on the concept, the proxy forwards only the methods defined in the protoco
 
 @end
 ```
-This sub class should be set as a default.
+This subclass should be set as a default.
 ```objc
 [[RamblerAppDelegateProxy injector] setDefaultAppDelegate:[AppDelegate new]];
 ```
-This is necessary for example if you are using Typhoon. For injection depending on need to write a definition for RamblerAppDelegateProxy.
+This is necessary for example if you are using Typhoon. For injection depending in AppDelegates need to write a definition for RamblerAppDelegateProxy.
 ```objc
 @implementation ApplicationAssembly
 
