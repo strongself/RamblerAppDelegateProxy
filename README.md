@@ -67,6 +67,46 @@ int main(int argc, char * argv[]) {
 
 Use your `RemoteNotificationAppDelegate` in the same way as the standart `AppDelegate` class - just remember to not mess its responsibilities.
 
+### Troubleshooting
+
+Based on the concept, the proxy forwards only the methods defined in the protocol UIApplicationDelegate. If you need something a complementary method that must be implemented in AppDelegate, you need to create a subclass.
+```objc
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
+```
+This sub class should be set as a default.
+```objc
+[[RamblerAppDelegateProxy injector] setDefaultAppDelegate:[AppDelegate new]];
+```
+This is necessary for example if you are using Typhoon. For injection depending on need to write a definition for RamblerAppDelegateProxy.
+```objc
+@implementation ApplicationAssembly
+
+- (RamblerAppDelegateProxy *)applicationDelegateProxy {
+return [TyphoonDefinition withClass:[RamblerAppDelegateProxy class]
+configuration:^(TyphoonDefinition *definition) {
+[definition injectMethod:@selector(addAppDelegates:)
+parameters:^(TyphoonMethod *method) {
+NSMutableArray *appDelegates = @[
+[self remoteNotificationAppDelegate]
+];
+[method injectParameterWith:appDelegates];
+}];
+}];
+}
+
+- (id<UIApplicationDelegate>)remoteNotificationAppDelegate {
+return [TyphoonDefinition withClass:[RCMLaunchingAppDelegate class]
+configuration:^(TyphoonDefinition *definition) {
+}];
+}
+
+@end
+```
+
 ### Authors
 
 [Vadim Smal](https://github.com/CognitiveDisson)
