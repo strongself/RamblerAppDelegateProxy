@@ -86,22 +86,22 @@ This is necessary for example if you are using Typhoon. For injection depending 
 @implementation ApplicationAssembly
 
 - (RamblerAppDelegateProxy *)applicationDelegateProxy {
-return [TyphoonDefinition withClass:[RamblerAppDelegateProxy class]
-configuration:^(TyphoonDefinition *definition) {
-[definition injectMethod:@selector(addAppDelegates:)
-parameters:^(TyphoonMethod *method) {
-NSMutableArray *appDelegates = @[
-[self remoteNotificationAppDelegate]
-];
-[method injectParameterWith:appDelegates];
-}];
-}];
+    return [TyphoonDefinition withClass:[RamblerAppDelegateProxy class]
+                          configuration:^(TyphoonDefinition *definition) {
+                                [definition injectMethod:@selector(addAppDelegates:)
+                                              parameters:^(TyphoonMethod *method) {
+                                                    NSArray *appDelegates = @[
+                                                        [self remoteNotificationAppDelegate]
+                                                    ];
+                                                    [method injectParameterWith:appDelegates];
+                                                }];
+                          }];
 }
 
 - (id<UIApplicationDelegate>)remoteNotificationAppDelegate {
-return [TyphoonDefinition withClass:[RCMLaunchingAppDelegate class]
-configuration:^(TyphoonDefinition *definition) {
-}];
+    return [TyphoonDefinition withClass:[RCMLaunchingAppDelegate class]
+                          configuration:^(TyphoonDefinition *definition) {
+                          }];
 }
 
 @end
