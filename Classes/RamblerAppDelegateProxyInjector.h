@@ -13,7 +13,6 @@
  
  Object for lazy injection to RamblerAppDelegateProxy
  
- @return instancetype
  */
 @interface RamblerAppDelegateProxyInjector : NSProxy
 
