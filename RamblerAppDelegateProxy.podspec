@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "RamblerAppDelegateProxy"
-  s.version               = "0.0.4"
+  s.version               = "0.0.5"
   s.summary               = "Proxy for UIApplicationDelegate protocol"
   s.homepage              = "https://github.com/strongself/RamblerAppDelegateProxy"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
